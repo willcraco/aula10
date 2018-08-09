@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  text-align: center;
+  background: url(../images/bg-body.png);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container{
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.main-header{
+    padding-top: 15px;
+}
+
+.logo{
+  border-radius:90px;
+  width: 180px;
+  height: 180px;
+  border: 2px grey solid ;
+}
+
+.main-nav{
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+
+.main-nav li{
+  background: #333333;
+  width: 180px;
+  height: 50px;
+  margin-right: 20px;
+  padding-top: 15px;
+  float: left;
+  list-style-type:none;
+}
+
+.main-nav ul li:last-child{
+  margin-right: 0;
+}
+
+.main-nav li a{
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav ul{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.banner img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.vip-products{
+  overflow: hidden;
+}
+
+.product {
+  float: left;
+  width: 380px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product:nth-child(3n){
+  margin-right: 0;
+}
+
+.product a{
+  background: #333333;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+footer{
+  background: #333333;
+  
+}
